@@ -1,0 +1,15 @@
+{
+    "name": "pag/phpcbf-bug",
+    "description": "A description of a bug in cbf",
+    "type": "project",
+    "require": {
+        "squizlabs/php_codesniffer": "*"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Pierre-Antoine Guillaume",
+            "email": "pierreantoine.guillaume@gmail.com"
+        }
+    ]
+}
