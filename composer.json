@@ -2,8 +2,14 @@
     "name": "pag/phpcbf-bug",
     "description": "A description of a bug in cbf",
     "type": "project",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:jrfnl/PHP_CodeSniffer"
+        }
+    ],
     "require": {
-        "squizlabs/php_codesniffer": "*"
+        "squizlabs/php_codesniffer": "dev-feature/3345-generic-inlinecontrolstructures-bugfix-multicatch-finally"
     },
     "license": "mit",
     "authors": [

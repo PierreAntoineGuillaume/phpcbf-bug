@@ -9,5 +9,5 @@
 
     <rule ref="PSR12"/>
 
-    <file>after.php</file>
+    <file>after-patch.php</file>
 </ruleset>
