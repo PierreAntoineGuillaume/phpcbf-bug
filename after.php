@@ -2,9 +2,10 @@
 
 function testParse()
 {
-    if (true)
+    if (true) {
         try {
         } catch (\LogicException $e) {
-        } catch (\Exception $e) {
         }
+    } catch (\Exception $e) {
+    }
 }
